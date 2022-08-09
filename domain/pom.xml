@@ -12,6 +12,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
+<!--    O modelo de domínio não deve depender de nenhuma tecnologia específica.-->
+<!--    Essa é a razão pela qual você não encontrará anotações do Spring aqui.-->
+
     <!-- module info -->
     <groupId>com.santosystem.invest</groupId>
     <artifactId>domain</artifactId>
@@ -26,16 +29,11 @@
     </properties>
 
     <dependencies>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
-            <optional>true</optional>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>org.projectlombok</groupId>-->
+<!--            <artifactId>lombok</artifactId>-->
+<!--            <optional>true</optional>-->
+<!--        </dependency>-->
 
         <dependency>
             <groupId>org.springframework.boot</groupId>
